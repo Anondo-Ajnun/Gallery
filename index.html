@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Demo website</title>
+    <!------------------------------------CSS link start---------------------------------->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!------------------------------------CSS Link End---------------------------------->
+</head>
+
+<body>
+
+    <header class="header">
+        <!-------------------------------Navbar Start--------------------------------------->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+            <div class="container">
+                <a class="navbar-brand" href="#">Anondo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                service
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#"> My Portfolio</a>
+                                <a class="dropdown-item" href="#">Web Deisgn & Developmet</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Android App Development</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">Contact</a>
+                        </li>
+                        
+                </div>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!-------------------------------Navbar End--------------------------------------->
+
+        <!------------------------------Carousel start------------------------------------->
+
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item" style="height: 700px;">
+                    <img src="images/grd-pic/pic1.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-4 bg-danger text-left">First slide label</h5>
+                        <p class="display-5 text-left bg-info">Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="height: 700px;">
+                    <img src="images/grd-pic/pic2.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-4 bg-danger text-right">Second slide label</h5>
+                        <p class="display-5 text-right bg-info">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="height: 700px;">
+                    <img src="images/grd-pic/pic3.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-4 bg-danger text-left">Third slide label</h5>
+                        <p class="display-5 text-left bg-info">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+                <div class="carousel-item active" style="height: 700px;">
+                    <img src="images/grd-pic/pic4.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-4 bg-danger text-right">Third slide label</h5>
+                        <p class="display-5 text-right bg-info">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" style="height: 700px;">
+                    <img src="images/grd-pic/pic5.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5 class="display-4 bg-danger text-left">Third slide label</h5>
+                        <p class="display-5 text-left bg-info">Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+        <!--------------------------------Carousel End------------------------------------->
+    </header>
+    <!------------------------------------About us start------------------------------------->
+    <section class="about-us pb-5 pt-2 bg-dark">
+        <div class="container">
+            <div class="about-title text-center">
+                <h2 class="mt-5 bg-dark text-warning">About us</h2>
+                <p class="bg-warning">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae aperiam quaerat tempora saepe obcaecati maiores molestias atque sint cumque? In magni rem, officiis distinctio doloremque earum deleniti repudiandae perspiciatis adipisci.</p>
+            </div>
+                    <div class="row pt-3">
+                        <div class="col-md-4">
+                            <div class="single-about card card-body text-center">
+                                <i class="fab fa-android"></i>
+                                <h4 class="mt-3">Android Apps Development</h4>
+                                <p class="bg-danger mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam tenetur reprehenderit non sed
+                                    doloribus excepturi voluptate accusamus perferendis, voluptas minus nostrum, animi cum unde.
+                                    Molestiae nemo laudantium deleniti eaque dolor.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-about card card-body text-center">
+                                <i class="fas fa-cogs"></i>
+                                <h4 class="mt-3">Web Development</h4>
+                                <p class="bg-warning mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam tenetur reprehenderit non sed
+                                    doloribus excepturi voluptate accusamus perferendis, voluptas minus nostrum, animi cum unde.
+                                    Molestiae nemo laudantium deleniti eaque dolor.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="single-about card card-body text-center">
+                                <i class="fab fa-wordpress"></i>
+                                <h4 class="mt-3">Wordpress Development</h4>
+                                <p class="bg-info mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam tenetur reprehenderit non sed
+                                    doloribus excepturi voluptate accusamus perferendis, voluptas minus nostrum, animi cum unde.
+                                    Molestiae nemo laudantium deleniti eaque dolor.</p>
+                            </div>
+                        </div>
+                    </div>
+         </div>
+
+    </section>
+    <!--------------------------------About us end------------------------------------->
+
+    <!--------------------------------Image Gallery Start------------------------------------->
+    <section class="gallery-area bg-info">
+        <div class="container">
+            <div class="section-heading pt-4 text-center w-75 m-auto">
+                <h3 class="display-3 font-weight-bold">Photo Gallery</h3>
+                <p class="font-weight-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, odio temporibus minus quisquam molestiae odit quos enim reiciendis distinctio officia vero architecto quibusdam rerum consequatur, aspernatur, in tempore quo quidem.</p>
+            </div>
+            <div class="row pb-4 pt-4">
+                <div class="col-md-4">
+                    <div class="galley-item">
+                        <a href="images/gallery-pic/gpic1.jpeg" data-lightbox="example-set">
+                            <img src="images/gallery-pic/gpic1.jpeg" class="w-100" alt="Anondo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="galley-item">
+                        <a href="images/gallery-pic/gpic2.jpg" data-lightbox="example-set">
+                            <img src="images/gallery-pic/gpic2.jpg" class="w-100" alt="Anondo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="galley-item">
+                        <a href="images/gallery-pic/gpic3.jpeg" data-lightbox="example-set">
+                            <img src="images/gallery-pic/gpic3.jpeg" class="w-100" alt="Anondo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+             <!--------------------------------second row------------------------------------->
+
+            <div class="row pb-4">
+                <div class="col-md-4">
+                    <div class="galley-item">
+                        <a href="images/gallery-pic/gpic4.png" data-lightbox="example-set">
+                            <img src="images/gallery-pic/gpic4.png" class="w-100" alt="Anondo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="galley-item">
+                        <a href="images/gallery-pic/gpic5.jpg" data-lightbox="example-set">
+                            <img src="images/gallery-pic/gpic5.jpg" class="w-100" alt="Anondo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="galley-item">
+                        <a href="images/gallery-pic/gpic6.jpeg" data-lightbox="example-set">
+                            <img src="images/gallery-pic/gpic6.jpeg" class="w-100" alt="Anondo">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!--------------------------------Image Gallery end------------------------------------->
+        <!--------------------------------Newslatter Start------------------------------------->
+    </section>
+    <section class="news-letter bg-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center bg-info p-5">
+                    <h2>Sign up for the NEWSLETTER</h2>
+                    <div class="input-group mb-3 w-50 m-auto">
+                        <input type="text" class="form-control" placeholder="your Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <div class="input-group-append">
+                          <span class="input-group-text bg-warning" id="basic-addon2">Subscribe</span>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------Newslatter end------------------------------------->
+    <!--------------------------------footer Start------------------------------------->
+    <section class="footer-area bg-dark text-white text-center pt-4 pb-2">
+        <footer class="footer-area">
+            <p>Copyright by @Anondo</p>
+        </footer>
+    </section>
+    <!--------------------------------Footer end------------------------------------->
+   
+    <!------------------------------------Java Script Link start---------------------------------->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js""></script>
+    <script src=" https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <!------------------------------------Java Script End---------------------------------->
+
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+/*-----------index.html start-----------*/
+.carousel-caption {
+    bottom: 25%;
+}
+.navbar-brand:hover{
+    background-color: rgb(255, 94, 0);
+    
+}
+.single-about i{
+    font-size: 50px;
+}
+.single-about:hover{
+    background-color: rgb(231, 142, 142);
+}
+/*-----------index.html end-----------*/
+
+/*-----------about.html start-----------*/
+.breadcrumb{
+    background-color: transparent;
+    padding-left: 0%;
+}
+.add-info .card-header{
+    background-color: transparent;
+}
+
+.team-section ul li{
+    font-size: 23px;
+    border: 1 px solid #ddd;
+}
+.team-section .card{
+    background-color:rgb(176, 228, 32);
+}
+.about-featured{
+    background-color: rgb(243, 201, 87);
+}
+/*-----------about.html end-----------*/
+/*-----------service.html end-----------*/
+.item-choise i{
+    font-size: 30px;
+    transition: .5s;
+}
+.item-choise{
+    transition: .5s;
+}
+.item-choise:hover i{
+    color: lime;
+    margin-top: 20px;
+}
+/*-----------service.html end-----------*/
